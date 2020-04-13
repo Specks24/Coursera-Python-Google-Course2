@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-
 import shutil
 import psutil
 from network import *
+
 
 def check_disk_usage(disk):
     """Verifies that there's enough free space on disk"""
